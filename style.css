@@ -1,0 +1,50 @@
+body{
+    color:white;
+    background-color:black
+}
+
+.banner{
+    background-image: url(https://pro2-bar-s3-cdn-cf2.myportfolio.com/6c682fa170908759081d6021482ee35f/3c2f5684-277e-4175-a947-a429c7001b41_rw_1920.gif?h=60d6e0052ed70cd99d4bbbe42527bb91);
+    padding:25px;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    height: 250px;
+    transition:500ms;
+}
+
+.content{
+    margin:5%;
+    color: white;
+    font-family:"Book Antiqua";
+    font-size: 18px;
+}
+
+div.gallery{
+    margin:3%;
+    float:left;
+    width:350px;
+    transform:rotate(0deg);
+    transition:1000ms;
+    margin-left:40px;
+    margin-right:auto;
+}
+
+div.gallery img{
+   width:100%; 
+   height:250px;
+}
+
+div.desc{
+    padding:15px;
+    text-align:center;
+}
+
+div.banner:hover{
+    transform:scale(1.2);
+}
+
+div.gallery:hover{
+    background-color:white;
+    color:black;
+    transform:rotate(360deg);
+}
